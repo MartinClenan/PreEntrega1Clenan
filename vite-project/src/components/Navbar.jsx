@@ -8,6 +8,7 @@ function Navbar() {
           <a href="">Todos</a>
           <a href="">Proteinas</a>
           <a href="">Creatinas</a>
+          <a href="">Combos</a>
           <Menu width={24} height={24}/>
           <CartWidget/><span>0</span>
         </nav>
