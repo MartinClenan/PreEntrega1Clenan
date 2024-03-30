@@ -1,5 +1,5 @@
-import miImagen from "./menu_icon.png"
 import { Menu } from "lucide-react"
+import CartWidget from "./CartWidget"
 function Navbar() {
     return(
         <header className="bg-red-700 p-4 flex justify-between shadow-md">
@@ -9,6 +9,7 @@ function Navbar() {
           <a href="">Proteinas</a>
           <a href="">Creatinas</a>
           <Menu width={24} height={24}/>
+          <CartWidget/><span>0</span>
         </nav>
       </header>
     )
